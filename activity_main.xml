@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@color/lime"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monkey_counter"
+        android:textColor="@color/purple"
+        android:textSize="45sp"
+        android:background="@drawable/ground"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:width="30dp"
+        app:srcCompat="@drawable/bibiz" />
+
+
+
+    <TextView
+        android:id="@+id/txt_count"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ground"
+        android:gravity="center"
+        android:text="@string/none"
+        android:textColor="@color/purple"
+        android:textSize="35sp"
+
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:onClick="onClickaddMonkeys"
+        android:rotation="0"
+        android:text="@string/add"
+        android:textColor="@color/peach"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/buttonsb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotationX="3"
+        android:text="@string/zero"
+        android:textColor="@color/peach"
+        android:textSize="35sp"
+        android:backgroundTint="@color/purple_200"
+        android:onClick="offClickaddMonkeys"
+        />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
