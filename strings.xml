@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Бибизян</string>
+    <string name="monkey_counter">Счетчик обезьянок</string>
+    <string name="none">нету!</string>
+    <string name="add">добавить</string>
+    <string name="zero">сброс</string>
+</resources>
